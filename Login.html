@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Đăng Nhập Tài Khoản - NON Store Perfume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='css/bootstrap.css'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+ <!-- Header -->
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="header" class="col-md-12" >
+                <div class="col-md-3 text-center">
+                    <img id="logo" src="img/logo11.jpg" class="img-responsive" alt="Logo NON">
+                    <p style="font-weight:800"><em>&quot;Mùi hương là giai điệu của cuộc sống&quot;</em> <span class="glyphicon glyphicon-heart" style="color: #f30a0a;margin-top: 15px;" ></span></p>
+                </div>
+                <div class="col-md-5" >
+                    <form class="form-inline">  
+                        <label><input id="form-first" type="search" class="form-control" placeholder="Search..."></label>
+                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+                    </form>   
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline text-uppercase" style="font-weight:bold">
+                        <li> <span class="bi bi-person-circle" style="color:#ffb8b8; font-size: 25px;"></span> </li>
+                        <li> <a href="Login.html" id="dangnhap">Đăng nhập</a> </li>
+                        <li> <a href="Register.html">/ Đăng ký</a> </li>
+                        <li> <a href=""><span class="bi bi-cart" style="color:#ffb8b8;font-size: 25px;"></span>Giỏ hàng</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div id="menu" class="col-md-12 text-uppercase text-decoration-none">
+                <ul class="list-inline">
+                    <li><a href="Home.html">Trang chủ</a></li>
+                    <li><a href="Product.html">Danh mục sản phẩm</a></li>
+                    <li><a href="Introduce.html">Giới thiệu</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- Main Cotent -->
+<main>
+    <div class="container-fluid">
+        <div  id="login" class="row">
+            <div id="border" class="col-md-6">
+                <h3 class="text-uppercase text-center">Đăng nhập</h3>
+                <div id="content-login">
+                <form>
+                    <div class="form-group ">
+                        <label for="username">Số điện thoại hoặc email <span style="color: red">&ast;</span></label>
+                        <input id="username" type="text" placeholder="Nhập số điện thoại hoặc email" name="username" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mật khẩu <span style="color: red">&ast;</span></label>
+                        <input id="password" type="password" placeholder="Nhập mật khẩu" name="pasword" class="form-control">
+                    </div>
+
+                <!-- Nhớ mật khẩu -->
+                <div class="row form-group form-inline">
+                    <div class="col-xs-6 col-md-7">
+                        <input type="checkbox" class="form-check-input" id="password2">
+                        <label class="form-check-label" for="password2">Nhớ mật khẩu</label>
+                    </div>
+                    <div class="col-xs-6 col-md-5">
+                    <a href="" id="reset">Quên mật khẩu?</a>
+                    </div>
+                </div>
+                    <button id="btnlogin" type="submit" class="btn btn-lg btn-block text-uppercase">Đăng nhập</button>
+                </form>
+        
+                <div id="fago" class="row">
+                    <div class=" login2 text-center">
+                        Hoặc Đăng Nhập Nhanh Với
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <a href="" ><img id="facebook" src="img/login_fb.jpg" class="img-responsive" alt="Facebook"></a>
+                    </div>
+                    <div class="col-xs-6 col-md-6">
+                        <a href=""><img id="google" src="img/login_gg.jpg" class="img-responsive" alt="Google"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <!-- Form dang ky -->
+                <div id="border2" class="col-md-6 text-center">
+                    <h3 class="text-uppercase">Đăng ký</h3>
+                    <div id="content-register1" style="font-size: 16px;">Nếu bạn chưa có tài khoản? Đăng ký ngay để có thể truy cập trạng thái, lịch sử đơn hàng của mình.</div>
+                    <a id="dangkynow" class="btn btn-lg text-uppercase" href="Register.html">Đăng ký tại đây</a>
+                </div>
+        </div>
+    </div>
+</main>
+
+<!-- FOOTER-->
+<footer>
+    <div class="container-fluid">
+        <div class="row text-center  footer2">
+            <div class="col-md-12">
+                <p><span style="font-size:16px"> &copy;</span> Bản quyền thuộc về NON Store Perfume</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- STYLE CSS-->
+    <style type="text/css">
+        body{
+            font-family: "Segoe UI", Arial, Helvetica;
+        }
+        #header{
+            margin-top: 40px;
+            text-align: center;
+        }
+        #form-first{
+            width: 320px;
+        }
+        #logo{
+            width: 140px;
+            height: 65px;
+            margin: -20px auto 0 auto;
+        }
+        
+        #menu{
+            background-color: #FFDDDD;
+            color: #000;
+            font-weight: bold;  
+        }
+
+       #menu li{
+            font-size: 18px;
+            padding-right: 50px;
+            margin: 15px auto;
+       }
+
+        #dangnhap{
+            color: #000;
+            border-bottom: 2px solid #000;
+        }
+        h3{
+            font-weight: bold; 
+        }
+        #border{
+            border-right: 1px solid #dcdcdc;
+        }
+        #content-login{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+        }
+        #content-register1{
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 30px;
+        }
+        #reset{
+        color: #ffb8b8;
+        border: none;
+        font-weight: bold;  
+        }
+
+        #btnlogin{
+            background-color: #FFDDDD;
+            color: #000;
+            font-weight: bold;
+            border: none;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    
+        .login2{
+            font-weight: bold;
+            margin-top: 50px; 
+            margin-bottom: 30px;
+            font-size: 16px;
+
+        }
+        #login{
+            margin-top: 30px;
+        }
+        #dangkynow{
+            background-color: #FFDDDD;
+            color: #000;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-size: 16px;
+        }
+        #fago{
+            margin-bottom: 70px;
+        }
+            
+        #facebook{
+        margin-left: 15%;
+        width: 177px;
+        }
+        .footer2{
+            padding-top: 14px;
+            background-color: #000000;
+            color:#ffffff;
+            font-weight: bold;
+        }
+        @media screen and (max-width:767px) {
+            #border2{
+                border-top: 1px solid #dcdcdc;
+            }
+        }
+    </style> 
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
